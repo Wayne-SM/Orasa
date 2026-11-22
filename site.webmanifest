@@ -1,0 +1,21 @@
+{
+  "name": "ORASA — Specialty Coffee × Bake House",
+  "short_name": "ORASA",
+  "description": "Coffee with character. A bake house with soul.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf7eb",
+  "theme_color": "#ebd6fb",
+  "icons": [
+    {
+      "src": "assets/img/favicon-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

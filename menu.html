@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu — ORASA Specialty Coffee × Bake House</title>
+  <meta name="description" content="Explore Orasa's complete vegetarian food, specialty coffee, matcha, tea, desserts, and pour-over menu." />
+  <meta property="og:title" content="ORASA — Specialty Coffee × Bake House" />
+  <meta property="og:description" content="Coffee with character. A bake house with soul." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="assets/img/favicon-64.png" sizes="64x64" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preload" href="assets/img/orasa-logo.png" as="image" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <main class="menu-page">
+    <header class="nav menu-page-nav">
+      <a class="wordmark" href="index.html" aria-label="Orasa home"><img src="assets/img/orasa-logo.png" alt="Orasa Specialty Coffee × Bake House" /></a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html#story">Our story</a>
+        <a href="menu.html" aria-current="page">Menu</a>
+        <a href="index.html#visit">Directions</a>
+      </nav>
+      <a class="nav-cta" href="index.html#visit">Find us <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <section class="full-menu" aria-labelledby="full-menu-title">
+      <div class="full-menu-head">
+        <div>
+          <p class="section-no">Full menu</p>
+          <h2 id="full-menu-title">Everything at Orasa.</h2>
+        </div>
+        <p>Choose Drinks, Food, or Desserts, then open any category to see its items and descriptions. Prices will return after the menu review is complete.</p>
+      </div>
+      <div class="menu-group-tabs" role="tablist" aria-label="Menu sections" data-menu-tabs></div>
+      <div class="menu-categories" data-menu-body>
+        <p class="menu-loading">Preparing today's menu…</p>
+      </div>
+      <p class="menu-disclaimer">Prices are temporarily hidden while the menu is being reviewed. Please ask our team about today's specials.</p>
+    </section>
+
+    <footer>
+      <div class="footer-logo"><img src="assets/img/orasa-logo-tm.png" alt="Orasa™ Specialty Coffee × Bake House" /></div>
+      <div class="footer-bottom">
+        <p>Specialty Coffee × Bake House</p>
+        <a href="https://www.instagram.com/orasa.coffee/" target="_blank" rel="noreferrer">@orasa.coffee ↗</a>
+        <p>All-vegetarian.</p>
+      </div>
+    </footer>
+  </main>
+  <script src="assets/data/menu-data.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
